@@ -1,0 +1,47 @@
+identity:
+  author: Dify
+  name: odoo
+  label:
+    en_US: Odoo
+    zh_Hans: Odoo
+  description:
+    en_US: Odoo
+    zh_Hans: Odoo
+  icon: icon.svg
+credentials_for_provider:
+  odoo_url:
+    type: text-input
+    required: true
+    label:
+      en_US: Odoo URL
+      zh_Hans: Odoo URL
+    placeholder:
+      en_US: Please input your Odoo URL
+      zh_Hans: 请输入你的 Odoo URL
+  odoo_db:
+    type: text-input
+    required: true
+    label:
+      en_US: Odoo Database
+      zh_Hans: Odoo 数据库
+    placeholder:
+      en_US: Please input your Odoo Database name
+      zh_Hans: 请输入你的 Odoo 数据库名称
+  odoo_username:
+    type: text-input
+    required: true
+    label:
+      en_US: Odoo Username
+      zh_Hans: Odoo 用户名
+    placeholder:
+      en_US: Please input your Odoo Username
+      zh_Hans: 请输入你的 Odoo 用户名
+  odoo_password:
+    type: secret-input
+    required: true
+    label:
+      en_US: Odoo Password
+      zh_Hans: Odoo 密码
+    placeholder:
+      en_US: Please input your Odoo Password
+      zh_Hans: 请输入你的 Odoo 密码

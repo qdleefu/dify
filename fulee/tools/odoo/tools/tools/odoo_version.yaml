@@ -1,0 +1,12 @@
+identity:
+  name: odoo_version
+  author: Dify
+  label:
+    en_US: OdooVersion
+    zh_Hans: Odoo版本
+description:
+  human:
+    en_US: A tool for fetching the Odoo version information.
+    zh_Hans: 一个用于获取 Odoo 版本信息的工具。
+  llm: A tool for fetching the Odoo version information.
+parameters: []
